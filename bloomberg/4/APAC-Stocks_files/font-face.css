@@ -1,0 +1,52 @@
+
+@font-face {
+    font-family: 'AvenirNext-Demi';
+    font-display: swap;
+    
+    src: url('https://assets.bwbx.io/s3/fontservice/fonts/AvenirNext-Demi-07326ffcf3.eot');
+    src: local('?'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/AvenirNext-Demi-bb2b2e9964.woff2') format('woff2'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/AvenirNext-Demi-80d6dec71d.woff') format('woff'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/AvenirNext-Demi-896ccbff79.svg') format('svg'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/AvenirNext-Demi-c55bd4ef45.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bloomberg';
+    font-display: block;
+    
+    src: url('https://assets.bwbx.io/s3/fontservice/fonts/Bloomberg-250afba92d.eot');
+    src: local('?'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/Bloomberg-048eeffe56.woff2') format('woff2'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/Bloomberg-5c2599d032.woff') format('woff'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/Bloomberg-0506a6c14c.svg') format('svg'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/Bloomberg-aa2f00257e.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BWHaasGrotesk-95Black-Web';
+    font-display: swap;
+    
+    
+    src: url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-95Black-Web-3629d1569b.woff2') format('woff2'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-95Black-Web-37847ad026.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BWHaasGrotesk-75Bold-Web';
+    font-display: swap;
+    
+    
+    src: url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-75Bold-Web-de8c77cce2.woff2') format('woff2'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-75Bold-Web-506363704e.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'BWHaasGrotesk-55Roman-Web';
+    font-display: swap;
+    
+    src: url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-55Roman-Web-7998fbcba8.eot');
+    src: local('?'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-55Roman-Web-5cf5733cd9.woff2') format('woff2'),
+         url('https://assets.bwbx.io/s3/fontservice/fonts/BWHaasGrotesk-55Roman-Web-a1ea4fd367.woff') format('woff');
+}

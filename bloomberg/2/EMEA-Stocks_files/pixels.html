@@ -1,0 +1,22 @@
+
+<!-- saved from url=(0654)https://bcp.crwdcntrl.net/pixels?s=86%2C8&db=CPNTJbPPNTJbPAGABCENBtCgAP_AAGPAAAQAH9oB9CpGCTFBKGh4AIsAEAQXwBAEAOAAAAABAAAAAAgQAIwCAEASAACAAAACAAAAIAIAAAAAEAAAAAAAQAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAIEAAAAAAUAAABAAgEAAABIAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgYtAQAAcACEAH4AXwBHAEDgIOAhABEQCLAF1AMCAa8A6gCygF5gMWAKGQBAAmACOAI4AvMJATAAWABUADIAHAAQAAyABpAEQARQAmABPAD8AIQARwApQB3gD2AI4ASkBkgqAKAEwARwBHAFNgLzHQGAAFgAVAAyABwAEAALgAZAA0gCIAIoATAAngBiAD8AI4ATAAowBSgDKAHeAPYAjgBKQDqAMkHAAQALkIBYACwAMgAuACYAGIARwAygB3gEcAJSAdQlANAAWABkADgARAAmABiAEcAKMAUoAygB3gEcAOoSAAgAXKQEwAFgAVAAyABwAEAAMgAaQBEAEUAJgATwAxAB-AFGAKUAZQA7wCOAEpAZIUABAAXAJ2AAA.YAAAAAAAAAAA&c=12098 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><div><img src="./5" width="1" height="1"><script>
+function processTargusData(json)
+{
+   if (json != null) {
+       if (json.targus != null) {
+            u = "";
+            v = "map";
+            if (json.targus.sk != null && json.targus.sk != "") {
+                u += "/tp=TARG/tpid=" + json.targus.sk;
+            }
+            if (u != "") {
+              var img = new Image();
+              img.src = "https://sync.crwdcntrl.net/" + v + "/c=368" + u;
+              document.body.appendChild(img);
+            }
+        }
+   }
+}
+</script>
+<script src="./g.json"></script></div></body></html>
